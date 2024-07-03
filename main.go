@@ -18,7 +18,7 @@ func main() {
 	response, err := client.Chat(
 		context.TODO(),
 		&cohere.ChatRequest{
-			Message: "How are you today?",
+			Message: "Hello World!",
 		},
 	)
 	if err != nil {
